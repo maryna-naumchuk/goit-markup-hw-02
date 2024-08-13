@@ -1,6 +1,7 @@
 body {
     font-family: "Roboto", sans-serif;
     background-color: #fff;
+    color: #434455;
 }
 
 ul,
@@ -14,23 +15,6 @@ a {
 
 button {
     cursor: pointer;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
 }
 
 /* #region Header */
@@ -76,7 +60,9 @@ h3 {
     color: #404bbf;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .address-item {}
 
@@ -104,7 +90,7 @@ h3 {
     font-weight: bold;
     font-size: 56px;
     letter-spacing: 0.02em;
-    line-height: 1.071;
+    line-height: 1.07;
     text-align: center;
     color: #fff;
 }
@@ -126,18 +112,38 @@ h3 {
 
 /* #endregion Hero */
 
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
 
 .features-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* #region Team */
 .team {
     background-color: #f4f4fd;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-item {
+    background-color: #FFFFFF;
 }
 
 .team-name {
@@ -160,12 +166,29 @@ h3 {
 
 /* #endregion Team */
 
+.portfolio-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.portfolio-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
 .portfolio-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 /* #region Footer */
